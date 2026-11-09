@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PC STORE</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:Arial,sans-serif;
+  background:#080d18;
+  color:white;
+}
+header{
+  background:#101c31;
+  padding:25px 15px;
+  text-align:center;
+  border-bottom:2px solid #087cff;
+}
+header h1{color:#168cff;font-size:36px}
+header p{margin-top:10px;color:#ccc}
+nav{
+  background:#0c1424;
+  padding:15px;
+  text-align:center;
+}
+nav a{
+  color:white;text-decoration:none;
+  margin:10px;font-weight:bold;
+}
+.hero{
+  text-align:center;
+  padding:65px 15px;
+  background:linear-gradient(135deg,#071b38,#0755a5);
+}
+.hero h2{font-size:32px;margin-bottom:15px}
+.hero p{color:#e1eaff}
+.products{
+  padding:35px 6%;
+}
+.products h2{
+  text-align:center;
+  color:#168cff;
+  margin-bottom:30px;
+  font-size:28px;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:22px;
+}
+.card{
+  background:#111d30;
+  border:1px solid #203b60;
+  border-radius:14px;
+  overflow:hidden;
+  transition:.3s;
+}
+.card:hover{
+  transform:translateY(-6px);
+  border-color:#168cff;
+}
+.card img{
+  width:100%;
+  height:180px;
+  object-fit:cover;
+  display:block;
+}
+.card h3{padding:15px 15px 8px;color:#4da5ff}
+.card p{padding:0 15px 15px;color:#ccc}
+.card a{
+  display:block;
+  background:#087cff;
+  color:white;
+  text-align:center;
+  text-decoration:none;
+  padding:12px;
+  margin:12px;
+  border-radius:8px;
+  font-weight:bold;
+}
+.card a:hover{background:#0055b8}
+footer{
+  text-align:center;
+  background:#101c31;
+  padding:25px;
+  color:#bbb;
+  margin-top:30px;
+}
+footer a{color:#168cff;text-decoration:none}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>PC STORE</h1>
+  <p>كل ما تحتاجه من أجهزة الكمبيوتر ومستلزماتها</p>
+</header>
+
+<nav>
+  <a href="#home">الرئيسية</a>
+  <a href="#products">المنتجات</a>
+  <a href="#contact">تواصل معنا</a>
+</nav>
+
+<section class="hero" id="home">
+  <h2>أهلاً بك في PC STORE</h2>
+  <p>أجهزة كمبيوتر - لابتوبات - قطع غيار - إكسسوارات - صيانة</p>
+</section>
+
+<section class="products" id="products">
+<h2>منتجاتنا</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=700" alt="لابتوب">
+<h3>لابتوبات</h3>
+<p>مجموعة متنوعة من أجهزة اللابتوب.</p>
+<a href="https://wa.me/201067462532?text=استفسار%20عن%20اللابتوبات">استفسر الآن</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1587831990711-23ca6441447b?w=700" alt="كمبيوتر مكتبي">
+<h3>أجهزة كمبيوتر</h3>
+<p>أجهزة كمبيوتر للاستخدام والعمل.</p>
+<a href="https://wa.me/201067462532?text=استفسار%20عن%20أجهزة%20الكمبيوتر">استفسر الآن</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1591488320449-011701bb6704?w=700" alt="كمبيوتر ألعاب">
+<h3>Gaming PC</h3>
+<p>تجميعات وأجهزة مخصصة للألعاب.</p>
+<a href="https://wa.me/201067462532?text=استفسار%20عن%20Gaming%20PC">استفسر الآن</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=700" alt="قطع كمبيوتر">
+<h3>قطع غيار</h3>
+<p>مكونات وقطع غيار الكمبيوتر.</p>
+<a href="https://wa.me/201067462532?text=استفسار%20عن%20قطع%20الغيار">استفسر الآن</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=700" alt="شاشة">
+<h3>الشاشات</h3>
+<p>شاشات كمبيوتر بمقاسات مختلفة.</p>
+<a href="https://wa.me/201067462532?text=استفسار%20عن%20الشاشات">استفسر الآن</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=700" alt="كيبورد">
+<h3>كيبورد وماوس</h3>
+<p>إكسسوارات وأدوات تحكم للكمبيوتر.</p>
+<a href="https://wa.me/201067462532?text=استفسار%20عن%20الكيبورد%20والماوس">استفسر الآن</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=700" alt="سماعات">
+<h3>سماعات</h3>
+<p>سماعات للاستخدام والألعاب.</p>
+<a href="https://wa.me/201067462532?text=استفسار%20عن%20السماعات">استفسر الآن</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=700" alt="طابعة">
+<h3>طابعات</h3>
+<p>طابعات ومستلزمات الطباعة.</p>
+<a href="https://wa.me/201067462532?text=استفسار%20عن%20الطابعات">استفسر الآن</a>
+</div>
+
+</div>
+</section>
+
+<footer id="contact">
+  <h3>PC STORE</h3>
+  <p>للاستفسار والطلب تواصل معنا</p>
+  <h2 style="color:#168cff;margin:15px;">مروان أبودهب</h2>
+  <p>01067462532</p>
+<a href="https://wa.me/201067462532">تواصل عبر واتساب</a>
+  <h2 style="color:#168cff;margin:15px;">ENG:KEMO APOALDAHAP</h2>
+  <p>01224132251</p>
+  <a href="https://wa.me/201224132251"> تواصل عبر واتساب لو محتاج ويب</a>
+</footer>
+
+</body>
+</html>
